@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.col {
+  width: 265px;
+  height: 265px;
+  line-height: 250px;
+  text-align: center;
+  color: #fff;
+  font-size: large;
+}
